@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+.purchase{
+	padding: 5px;	
+}
+
+#poststuff .inside .purchase p{
+	margin: 0 0 10px 0;	
+}
+
+.purchase label{
+	font-weight: bold;
+	margin: 5px 0;	
+	display: block;
+}
+
+#tracks{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#tracks,
+#tracks th,
+#tracks td{
+	border-collapse: collapse;
+}
+
+#tracks thead th{
+	background-color: #f9f9f9;
+	border: 1px solid #f2f2f2;
+}
+
+#tracks th,
+#tracks td{
+	padding: 4px;
+	border: 1px solid #f2f2f2;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+#tracks tbody tr:nth-child(even) th,
+#tracks tbody tr:nth-child(even) td{
+	background: #f9f9f9;
+}
+
+#tracks th,
+#tracks td{
+	border-bottom: 1px solid #ff2f2;	
+}
+
+#tracks object,
+#tracks embed{
+	display: block;
+	margin: 0 auto;
+}
+
+#tracks .preview{
+	float: none;
+	text-align: center;
+}
+
+#tracks input[type="text"]{
+	width: 80px;	
+}
+
+#tracks input[name="name"]{
+	width: 150px;	
+}
+
+#tracks td.audio,
+#tracks td.actions{
+	white-space: nowrap;
+}
+
+#tracks .move_up,
+#tracks .move_down,
+#tracks .delete,
+#tracks .add_track,
+#tracks .itunes,
+#tracks .amazon,
+#tracks .custom,
+#tracks .edit{
+	background: url("../../images/icons/arrow_large_up.png") no-repeat center center;
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -9000px;
+	overflow: hidden;
+	margin-right: 3px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#tracks .move_down{
+	background: url("../../images/icons/arrow_large_down.png") no-repeat center center;
+}
+
+#tracks tbody tr:first-child .move_up,
+#tracks tbody tr:last-child .move_down{
+	visibility: hidden;	
+}
+
+#tracks .delete{
+	background: url("../../images/icons/remove.png") no-repeat center center;		
+}
+
+.add_track{
+	background: url("../../images/icons/add.png") no-repeat center center;
+	margin: 0 auto;
+}
+
+#tracks .itunes,
+#tracks .amazon,
+#tracks .custom{
+	background: url("../../images/icons/application_osx_right.png") no-repeat center center;
+	float: none;
+	display: inline-block;
+	margin: 0 0 0 3px;
+}
+
+#tracks .edit{
+	background: url("../../images/icons/box_edit.png") no-repeat center center;
+}
+
+#album_track_submit{
+	display: inline;
+}
+
+#loading-ajax{
+	position: relative;
+	top: 4px;
+	right: 6px;
+}
+
+#dialog-form{
+	display: none;	
+}
+
+#dialog-form fieldset{
+	padding: 3px 6px;
+	margin: 3px;
+}
+
+#dialog-form fieldset *{
+	vertical-align: middle;
+	line-height: 1em;
+}
+
+#dialog-form fieldset:hover{
+	background-color: #EAF7FD;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+#dialog-form .submitbox{
+	padding: 10px 5px;
+	height: 30px;
+}
+
+#dialog-form .deletion{
+	cursor: pointer;
+	line-height: 1.6em;
+	margin-right: 7px;
+	font-size: 0.9em;
+}

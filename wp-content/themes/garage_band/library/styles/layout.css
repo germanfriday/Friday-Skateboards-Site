@@ -1,0 +1,39 @@
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#logo{
+	float: left;
+	display: inline;
+	margin-right: 20px;
+}
+
+#primary_nav{
+	float: left;
+	margin-top: 0;
+}
+
+.primary{
+	display: inline;
+	float: left;
+	width: 570px;
+	padding: 0 30px 0 0;
+	margin-right: 20px;
+}
+
+body.page-template-tpl_full_width_page-php #content{
+	padding: 30px;
+	margin: 0;
+}
+
+body .full_width{
+	width: 100%;
+	padding: 0;
+}
+
+.aside{
+	display: inline;
+	float: right;
+	width: 260px;
+}

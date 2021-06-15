@@ -1,0 +1,68 @@
+/*
+Theme Name: Garage Band
+Theme URI: http://upthemes.com/themes/garage-band/
+Description: The world's greatest band theme in the history of band themes.
+Author: Chris Wallace for <a href="http://upthemes.com">UpThemes</a>
+Author URI: http://upthemes.com
+Version: 1.1.1
+*/
+
+/* Reset browser defaults */
+@import url('library/styles/reset.css');
+
+/* Set default typography */
+@import url('library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('library/styles/layout.css');
+
+/* Apply basic form styles */
+@import url('library/styles/forms.css');
+
+/* Apply basic menu styles */
+@import url('library/styles/superfish.css');
+
+/* Set up our base styles */
+@import url('library/styles/base.css');
+
+/* Set up our custom fonts */
+@import url('library/fonts/league-gothic/stylesheet.css');
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.wp-caption {
+	background-color: #f3f3f3;
+	border: 1px solid #ddd;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* optional rounded corners for browsers that support it */
+	margin: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+.wp-caption img {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+.cfct-module{ margin-bottom: 20px; }
+.cfct-module-image{ overflow-x: hidden; }
+.cfct-row{ margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+.cfct-row:last-child{ border-bottom: 0; }
